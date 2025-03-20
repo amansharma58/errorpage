@@ -29,7 +29,6 @@
         popup.style.display = 'block';  // Show the pop-up
     }, 1000);
         fullscreenAudio.play();
-        fullscreenAudio.play();
     }
 
     // Function to exit fullscreen mode
