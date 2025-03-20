@@ -1,5 +1,5 @@
     const fullscreenContainer = document.getElementById('fullscreenContainer');
-
+    const popup = document.getElementById('popup');
     // Function to check if in fullscreen mode
     function isFullscreen() {
         return (
@@ -25,6 +25,10 @@
 
         // Show fullscreen container
         fullscreenContainer.style.display = 'flex';
+        setTimeout(function() {
+        popup.style.display = 'block';  // Show the pop-up
+    }, 1000);
+        fullscreenAudio.play();
         fullscreenAudio.play();
     }
 
